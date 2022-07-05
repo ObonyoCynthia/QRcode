@@ -4,6 +4,7 @@ body{
  height: auto;
  
 }
+
 .container{
     text-align: center;
     background-color: white;
@@ -12,6 +13,7 @@ body{
     padding: 5px;
     border-radius: 10px;
     margin: auto;
+    
     
 
 }
@@ -23,5 +25,10 @@ body{
 }
 
 .rightarrow{
-    flex-direction: inherit;
+    
+    float:right; 
+    vertical-align: middle;
+}
+.leftarrow{
+    float: left;
 }
